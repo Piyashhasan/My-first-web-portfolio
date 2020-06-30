@@ -5,7 +5,10 @@ body {
 h1 {
   font-size: 50px;
 }
-.name-high-light {
+p {
+  color: dimgray;
+}
+.orange-highlight {
   color: orange;
 }
 .half-part {
@@ -16,7 +19,6 @@ h1 {
 }
 .half-part img {
   width: 100%;
-  margin-top: 20px;
 }
 .top-banner {
   background-image: url(images/top-banner.png);
@@ -24,4 +26,18 @@ h1 {
 }
 section {
   height: 500px;
+  padding-bottom: 120px;
+}
+.link-button {
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(45deg, orange, red);
+  color: white;
+  border-radius: 5px;
+  font-size: 700;
+}
+.Dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
